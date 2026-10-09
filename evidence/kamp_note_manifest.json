@@ -1,0 +1,63 @@
+{
+  "status": "PASS_SUBMISSION_RAW_TO_RESULTS",
+  "run_id": "20261005_154319_925393_UTC",
+  "raw_csv_sha256": "8f7af2e49366c93e1d6f5fdef4b5e350066c1792ac463c2c2886e370f4674830",
+  "input_zip_sha256": "f1e48ef19076b4eb5a22b458ef3ba9a163376cf759dd46fc64d586cf2c1684d0",
+  "versions": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "lightgbm": "4.6.0",
+    "catboost": "1.2.10"
+  },
+  "frozen_models": [
+    "ET_CORE_leaf1_none",
+    "CAT_CORE_PLUS_d6_w1p0",
+    "LGB_Q85_CORE",
+    "A11_ET_LEVEL",
+    "A11_ET_DELTA",
+    "A12_RESIDUAL"
+  ],
+  "training_from_raw": true,
+  "used_old_predictions_for_training": false,
+  "old_predictions_for_comparison_only": false,
+  "candidate_search_rerun": false,
+  "submission_mode": "selected_frozen_models",
+  "historical_prediction_files_required": false,
+  "A_metrics": {
+    "Validation": {
+      "N": 878,
+      "A11_MAE": 4.710176181662872,
+      "A12_MAE": 4.547575633542141
+    },
+    "Later": {
+      "N": 879,
+      "A11_MAE": 5.483152374857792,
+      "A12_MAE": 5.5411298350398175
+    }
+  },
+  "A_interval_coverage": {
+    "Later_fixed90": 0.9101251422070534,
+    "Later_online90": 0.9010238907849829
+  },
+  "source_sha256": {
+    "B4R": "9039e7f2f456a010c34e35b4c88f5d6bea4ea82eecd5c4fb751f4adcac2cbeba",
+    "B7": "f74af70d71a972bedc28586acc09063823759cb46836d343e61d033a995122ed"
+  },
+  "B11_later_threshold_from_prior_validation": 0.2441859170371039,
+  "fixed_mean_interval90_radius": 12.949531249999978,
+  "later_A12_MAE": 5.5411298350398175,
+  "operation_counts": {
+    "NORMAL": 649,
+    "WATCH": 35,
+    "WARNING": 195
+  },
+  "process_status": "DATA_REQUIRED",
+  "required_process_input_count": 27,
+  "operator_review_rows": 230,
+  "actual_schedule_candidates": 0,
+  "automatic_controls": 0,
+  "synthetic_peak_before": 13,
+  "synthetic_peak_after": 9,
+  "limitation": "시간별 관측이 순차 도착해야 lag/온라인보정을 갱신할 수 있음. Later는 프로젝트 전체 미열람 홀드아웃이 아님. 설비·제품 정보/계약 기준/실제 절감액은 없음."
+}

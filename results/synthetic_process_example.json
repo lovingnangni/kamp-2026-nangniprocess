@@ -1,0 +1,119 @@
+{
+  "warning": "가상 사례만; 실제 KAMP 공장 피크 또는 요금 절감 아님",
+  "case": {
+    "horizon_hours": 4,
+    "fixed_background_15m": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      8.0,
+      8.0,
+      8.0,
+      8.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "power_unit": "synthetic_units",
+    "background_excludes_equipment": true,
+    "profile_source_verified": true,
+    "materials": {
+      "RAW": {
+        "initial": 10,
+        "capacity": 20,
+        "inflow_hourly": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "external_use_hourly": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "min_final": 0
+      },
+      "FG": {
+        "initial": 2,
+        "capacity": 10,
+        "inflow_hourly": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "external_use_hourly": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "min_final": 2
+      }
+    },
+    "equipment": {
+      "id": "SYNTHETIC_E1",
+      "mode": "batch",
+      "power_profile_15m": [
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "startup_extra_first_15m": 2.0,
+      "safe_power_15m_min": 4.0,
+      "safe_power_15m_max": 10.0,
+      "max_power_ramp_per_15m": 10.0,
+      "material_delta_by_product": {
+        "A": {
+          "RAW": -2.0,
+          "FG": 2.0
+        }
+      },
+      "allowed_products": [
+        "A"
+      ],
+      "changeover_off_hours": 1,
+      "min_on_hours": 2,
+      "min_off_hours": 1,
+      "batch_hours": 2,
+      "required_on_hours": 2,
+      "max_starts": 1,
+      "availability_hourly": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "prior_state": {
+        "on": false,
+        "duration_hours": 3,
+        "last_product": null
+      },
+      "safety_approved": true,
+      "quality_approved": true
+    }
+  },
+  "original": [
+    "A",
+    "A",
+    null,
+    null
+  ],
+  "candidate": [
+    null,
+    null,
+    "A",
+    "A"
+  ],
+  "peak_before": 13,
+  "peak_after": 9
+}

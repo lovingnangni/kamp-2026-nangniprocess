@@ -1,0 +1,26 @@
+# Local datasets and generated run outputs
+/data/*
+!/data/README.md
+/outputs/
+*.zip
+
+# Python and notebook temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Credentials and local settings
+.env
+.env.*
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+
+# Report and presentation files are excluded from publication
+*.pdf
+*.ppt
+*.pptx
+*.hwp

@@ -1,0 +1,25 @@
+{
+  "status": "PASS_KAMP_NOTE_SELECTED_RAW_TO_RESULTS",
+  "original_submission_v1_sha256": "a2afa82ad28b9b15ab36a14cb24bd5b6d7493d4045e03f0ce7805eddf8c1d506",
+  "raw_zip_sha256": "02640b4cc90967c26a897953e43f42be0c9b0ca971364fa20b587cb50466b63a",
+  "raw_csv_sha256": "8f7af2e49366c93e1d6f5fdef4b5e350066c1792ac463c2c2886e370f4674830",
+  "test_predictions_origin": "KAMP-NOTE User defined CPU",
+  "test_predictions_run_id": "20261005_154319_925393_UTC",
+  "test_predictions_rows": 879,
+  "test_predictions_have_actual_targets": false,
+  "replay_evidence_sha256": "73437a6836140d0ff8902c7e4cb8660a52cd3c8081cee34e8c64de11d9a6c100",
+  "candidate_search_rerun": false,
+  "included_files": {
+    "README.md": "23f31431412a8a8c96da434531ba2d49f45ea5e0a3daa3a457254c01fb88e728",
+    "RUN_ALL.ipynb": "bae2d73340826dd58da4507e4e27d5e953fd5b8ca7f17609b5006ef6e562ada6",
+    "data/KAMP_5_data.zip": "02640b4cc90967c26a897953e43f42be0c9b0ca971364fa20b587cb50466b63a",
+    "predictions/test_predictions.csv": "11cf8519ceaf54477483ed1b6da002c1113a9c032230c0347d6d4fc85ca1332e",
+    "requirements.txt": "0e717f30868d15a03ad3171553048a4bd43ff82f75f3e6b00bb4e643665e1351",
+    "run_all.py": "ab78f8775c281a5c98b97bd912200a24f2e25642d40dcca27b817aeda46cad04",
+    "src/B4R_prepare.py": "58886a9b7e903846793861e697b4351448d31ee6cbfad48c0bfc358dd9ca2200",
+    "src/B4R_source.py": "9039e7f2f456a010c34e35b4c88f5d6bea4ea82eecd5c4fb751f4adcac2cbeba",
+    "src/B7_prepare.py": "4eee9c8dc2fdac2c1d61c4e0cf7554e6dc24ee5d48cd2c56a413cb4874858939",
+    "src/B7_source.py": "f74af70d71a972bedc28586acc09063823759cb46836d343e61d033a995122ed",
+    "src/process_constraints.py": "9ca472e57f5d9f46a430f77832b67a710bd4ef7a345dfa33c8d1a58b269cbb73"
+  }
+}
